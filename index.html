@@ -9,7 +9,7 @@
         <script type="text/javascript" src="js/base.js"></script>
         <script type="text/javascript" src="js/project.js"></script>
 
-        <link rel="icon" href="favicon.png">
+        <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="libs/reset.css">
         <link rel="stylesheet" href="libs/pure-min.css">
         <link rel="stylesheet"
@@ -62,7 +62,7 @@
                 controlBar.appendChild(editButton);
             }
             if (getUrlParameter('pauseButton')) {
-                controlBar.querySelector('.pause-button').hidden = false;
+                controlBar.querySelector('.pause-button').hidden = true;
             } else {
                 controlBar.querySelector('.pause-button').remove();
             }
